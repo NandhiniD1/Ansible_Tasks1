@@ -1,0 +1,7 @@
+---
+- name: finding no of process
+  hosts: group1
+  tasks: 
+  - name: hostname
+    debug:
+      var=ansible_hostname
